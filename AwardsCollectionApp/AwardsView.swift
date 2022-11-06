@@ -18,6 +18,8 @@ struct AwardsView: View {
                         .frame(width: 250, height: 250)
                     CurvesView()
                         .frame(width: 250, height: 250)
+                    FigureView()
+                        .frame(width: 250, height: 250)
                 }
             }
             .navigationBarTitle("Awards")

@@ -9,10 +9,13 @@ import SwiftUI
 
 struct FigureView: View {
     var body: some View {
-        ZStack{
-            VStack{
-                Spacer()
-                Circle()
+        GeometryReader { geometry in
+            let width = geometry.size.width
+            let height = geometry.size.height
+            ZStack{
+                VStack{
+                    Spacer()
+                    Circle()
                         .fill(
                             LinearGradient(
                                 gradient: Gradient(colors: [.pink, .yellow]),
@@ -20,31 +23,32 @@ struct FigureView: View {
                                 endPoint:  UnitPoint(x: 1, y: 0)
                             )
                         )
-                                    
-                                
-            }
-            VStack{
+                    
+                    
+                }
+                VStack{
+                    
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                gradient: Gradient(colors: [.pink, .yellow]),
+                                startPoint: UnitPoint(x: 0, y: 1),
+                                endPoint:  UnitPoint(x: 1, y: 0)
+                            )
+                        )
+                    Spacer()
+                    
+                }
                 
                 Circle()
-                        .fill(
-                            LinearGradient(
-                                gradient: Gradient(colors: [.pink, .yellow]),
-                                startPoint: UnitPoint(x: 0, y: 1),
-                                endPoint:  UnitPoint(x: 1, y: 0)
-                            )
+                    .fill(
+                        LinearGradient(
+                            gradient: Gradient(colors: [.pink, .yellow]),
+                            startPoint: UnitPoint(x: 0, y: 1),
+                            endPoint:  UnitPoint(x: 1, y: 0)
                         )
-                Spacer()
-                                
-            }
-
-            Circle()
-                .fill(
-                    LinearGradient(
-                        gradient: Gradient(colors: [.pink, .yellow]),
-                        startPoint: UnitPoint(x: 0, y: 1),
-                        endPoint:  UnitPoint(x: 1, y: 0)
                     )
-                )
+            }
         }
     }
 }

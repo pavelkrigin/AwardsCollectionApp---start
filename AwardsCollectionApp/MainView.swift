@@ -25,7 +25,7 @@ struct MainView: View {
             
             Spacer()
             if showAward {
-                GradientRectangles()
+                FigureView()
                     .frame(width: 250, height: 250)
                     .transition(.transition)
             }

@@ -16,7 +16,6 @@
 		A8E1B481267B7967005E98AA /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B480267B7967005E98AA /* CurvesView.swift */; };
 		A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B482267B7972005E98AA /* GradientRectangles.swift */; };
 		A8E1B485267B7979005E98AA /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B484267B7978005E98AA /* PathView.swift */; };
-		CA3C15942917FB5100222EEC /* PyramidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C15932917FB5100222EEC /* PyramidView.swift */; };
 		CA3C15962917FC5B00222EEC /* FigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C15952917FC5B00222EEC /* FigureView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		A8E1B480267B7967005E98AA /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		A8E1B482267B7972005E98AA /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		A8E1B484267B7978005E98AA /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
-		CA3C15932917FB5100222EEC /* PyramidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidView.swift; sourceTree = "<group>"; };
 		CA3C15952917FC5B00222EEC /* FigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,7 +71,6 @@
 				A8E1B482267B7972005E98AA /* GradientRectangles.swift */,
 				A8E1B484267B7978005E98AA /* PathView.swift */,
 				A8E1B480267B7967005E98AA /* CurvesView.swift */,
-				CA3C15932917FB5100222EEC /* PyramidView.swift */,
 				CA3C15952917FC5B00222EEC /* FigureView.swift */,
 				A89D0934267B76D600C1FB66 /* Assets.xcassets */,
 				A89D0939267B76D600C1FB66 /* Info.plist */,
@@ -165,7 +162,6 @@
 				A89D0933267B76D400C1FB66 /* MainView.swift in Sources */,
 				A8E1B485267B7979005E98AA /* PathView.swift in Sources */,
 				A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */,
-				CA3C15942917FB5100222EEC /* PyramidView.swift in Sources */,
 				A89D0940267B777E00C1FB66 /* StarterView.swift in Sources */,
 				A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */,
 			);
